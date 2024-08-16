@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body { /* ".body" nahi, sirf "body" hona chahiye */
+body {
     background-image: url("./bg.jpg");
     height: 100vh;
     background-size: 100vw 100vh;
@@ -25,7 +25,13 @@ body { /* ".body" nahi, sirf "body" hona chahiye */
 }
 .head{
     background-color: red;
+    border-radius: 50%;
+}
+.snake{
+    background-color: purple;
+    border-radius: 50%;
 }
 .food{
-    background-color: purple;
+    background-color: yellow;
+    border-radius: 50%;
 }
